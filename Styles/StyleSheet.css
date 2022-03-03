@@ -1,32 +1,35 @@
 ﻿body {
     margin: 0;
-    background-color: #ddf2db;
+    background-color: rgba(103, 153, 204, 1); /*greentheme:#ddf2db*/
     font-size: 18px;
     line-height: 26px;
 }
 
 nav {
-    background-color: rgba(57, 87, 64, 0.55);
+    background-color: rgba(55, 106, 163, 1); /*greentheme:rgba(57, 87, 64, 0.55);*/
     overflow: hidden;
     scroll-behavior: smooth;
-    height: 40px;
-   }
+    height: 100px;
+}
 nav section {
     margin-top:6px;
 }
 .container a {
+    font-family: sans-serif;
     padding: calc(1em + 2px);
     width: 100vw;
-    margin-top: 15px;
+    margin-top: 80px;
     border: solid 1px transparent;
     padding: 1em;
     color: #f2f3ee;
 }
 .container {
     background-color: #ddf2db;
-    height: calc(3em + 4px);
+    height: 100px;
     vertical-align: middle;
-    section
+}
+.toplinks {
+    color: rgba(132, 195, 252, 1);
 }
 
 p {
