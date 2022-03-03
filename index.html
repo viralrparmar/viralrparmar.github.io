@@ -8,28 +8,71 @@
 
     </style>
 </head>
-<body class="container" bgimage="/Images/bg1.jpg">
-    <nav>
-        <!--<button id="btnHome" style="background-image:btn-img.jpg" value="Home"></button>-->
-        <section>
-            <a id="top1" href="index.html" style="color: blue;">Home</a>
-            <a id="top2" href="gallery.html">Gallery</a>
-            <a id="top3" href="softwares.html">Softwares</a>
-            <a id="top4" href="about.html">About</a>
-            <a id="top5" href="contact.html">Contact</a>
-        </section>
-    </nav>
-    <table>
-        <tr>
-            <td><img src="Images/ganesha.jpg" /></td>
-            <td>
-                Hi, I am Viral Parmar and welcome to my site. I am a software developer from India (Gujarat). I have created many exciting
-                softwares and would like to share with you. Please find the softwares in the software tab of the home page. I have also
-                added gallery for the pictures of mine and from around the world. Please also feel free to contact me incase you liked
-                any of my softwares or feel free to submit your feedback. I would appreciate it.
-                Thanks and enjoy the website!
-            </td>
-        </tr>
-    </table>
+<body bgimage="/Images/bg1.jpg">
+    <div class="container">
+        <nav>
+            <section>
+                <a id="top1" href="index.html" style="color: blue;">Home</a>
+                <a id="top2" href="softwares.html">Softwares</a>
+                <a id="top3" href="gallery.html">Gallery</a>
+                <a id="top4" href="about.html">About</a>
+                <a id="top5" href="contact.html">Contact</a>
+            </section>
+            <div style="color: white;">
+                <table style="height: 60px; width: 100%;">
+                    <tr>
+                        <td style="vertical-align: bottom; text-align: right;">
+                            Email: viralparmarmca@gmail.com
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </nav>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td><img src="Images/ganesha.jpg" /></td>
+                <td style="font-size: 24px; ">
+                    <p>
+                        Hi, I am Viral Parmar and welcome to my site. I am a software developer from India (Gujarat). I have over 19 years of experience
+                        developing softwares using .NET, php, sql server, mysql, oracle. I have worked on open source as well as Microsoft technologies.
+                        I have created many exciting softwares and would like to share with you. Please find the softwares in the software tab of the home page. I have also
+                        added gallery for the pictures of mine and from around the world. Please also feel free to contact me incase you liked
+                        any of my softwares or feel free to submit your feedback. I would appreciate it.
+                        Thanks and enjoy the website!<br /><br />
+                        Some of the reference websites :<br />
+                        http://www.dotstaff.com<br />
+                        http://www.1800anylens.com<br />
+                        http://www.ess.com<br />
+                        http://www.myessentialhealth.net<br />
+                        http://www.khazano.com<br />
+                        http://www.seekajob.co.nz
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div style="margin-left:2px; border:1px solid black; border-radius:10px; width: 380px;">
+        <table>
+            <tr>
+                <td>Email:</td>
+                <td><input id="email" type="text" /></td>
+            </tr>
+            <tr>
+                <td>Phone no:</td>
+                <td><input id="phoneno" type="text" /></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: right;">
+                    <input type="button" value="Subscribe" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    <hr />
+    <div style="text-align: center;">
+        Home | About | Contact
+    </div>
 </body>
 </html>
